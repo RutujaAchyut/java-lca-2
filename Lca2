@@ -1,0 +1,29 @@
+class Lca2 {
+    public static void main(String[] args) {
+
+        int[] arr = {10, 20, 30};
+        int divisor = 0;
+
+        try {
+            System.out.println("Array element: " + arr[1]);
+
+            int result = 10 / divisor;
+            System.out.println("Result: " + result);
+        }
+
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception: Cannot divide by zero.");
+        }
+
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Exception: Invalid array index.");
+        }
+    }
+}
+
+Output:
+PS C:\Users\DELL\OneDrive\Desktop\Java Lca 2> javac "Lca 2.java"
+PS C:\Users\DELL\OneDrive\Desktop\Java Lca 2> java Lca2
+Array element: 20
+Arithmetic Exception: Cannot divide by zero.
+PS C:\Users\DELL\OneDrive\Desktop\Java Lca 2>
